@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.materialtabs.fragments.FourFragment">
+
+    <Button
+        android:id="@+id/btnOpenmf"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="418dp"
+        android:text="3 RAKAAT FARD" />
+
+    <Button
+        android:id="@+id/btnOpenms"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="332dp"
+        android:text="2 RAKAAT SUNNAH" />
+
+    <Button
+        android:id="@+id/btnOpenmn"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="240dp"
+        android:text="2 RAKAAT NAFIL" />
+
+
+</RelativeLayout>

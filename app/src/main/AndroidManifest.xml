@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.materialtabs" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ScrollableTabsActivity"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName=".activity.MainActivity" >
+        </activity>
+        <activity android:name=".activity.Fajarfard"/>
+        <activity android:name=".activity.Fajrsunnah"/>
+        <activity android:name=".activity.Zuharsunnah"/>
+        <activity android:name=".activity.Zuharfard"/>
+        <activity android:name=".activity.Zuhar_sunnah"/>
+        <activity android:name=".activity.Zuharnafil"/>
+        <activity android:name=".activity.Asrfard"/>
+        <activity android:name=".activity.Asrsunnah"/>
+        <activity android:name=".activity.Maghribfard"/>
+        <activity android:name=".activity.Maghribsunnah"/>
+        <activity android:name=".activity.Maghribnafil"/>
+        <activity android:name=".activity.Ishasunnah"/>
+        <activity android:name=".activity.Ishafard"/>
+        <activity android:name=".activity.Isha_sunnah"/>
+        <activity android:name=".activity.Ishanafil"/>
+        <activity android:name=".activity.Ishawitr"/>
+        <activity android:name=".activity.Isha_nafil"/>
+    </application>
+
+</manifest>
