@@ -13,6 +13,8 @@ public class Asrfard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_asrfard);
+        Toolbar mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mTopToolbar);
         viewPagers = (ViewPager) findViewById(R.id.viewpager);
         myadapters= new SlideAdapterAF(this);
         viewPagers.setAdapter(myadapters);

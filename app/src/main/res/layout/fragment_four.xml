@@ -8,39 +8,28 @@
         android:id="@+id/btnOpenmf"
         android:layout_width="271dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="71dp"
-        android:layout_marginRight="71dp"
-        android:layout_marginBottom="418dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
         android:text="3 RAKAAT FARD" />
 
     <Button
         android:id="@+id/btnOpenms"
         android:layout_width="271dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="71dp"
-        android:layout_marginRight="71dp"
-        android:layout_marginBottom="332dp"
-        android:text="2 RAKAAT SUNNAH" />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="162dp"
+        android:text="2 RAKAAT SUNNAH"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/btnOpenmn"
         android:layout_width="271dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="71dp"
-        android:layout_marginRight="71dp"
-        android:layout_marginBottom="240dp"
-        android:text="2 RAKAAT NAFIL" />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="244dp"
+        android:text="2 RAKAAT NAFIL"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
